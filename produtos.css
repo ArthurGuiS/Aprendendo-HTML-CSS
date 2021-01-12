@@ -22,10 +22,18 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: black;
+    color: gold;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    padding: 5px;
+    background-image: linear-gradient(to right, black , gray);
+    border-radius: 25%;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
 }
 
 .produtos {
@@ -42,11 +50,25 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.produtos li:hover {
+    border-color: gold;
+}
+
+.produtos li:active {
+    border-color: green;
 }
 
 .produtos h2 {
     font-size: 25px;
     font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
 }
 
 .produto-descricao{
@@ -57,4 +79,16 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 25px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
 }
