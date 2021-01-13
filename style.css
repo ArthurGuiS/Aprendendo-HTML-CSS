@@ -1,84 +1,94 @@
-body {
-
-}
-
 header {
-    background: black;
+    background: #BBBBBB;
+    padding: 10px 0;
 }
 
-.caixa-home h1 {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    padding-top: 8px;
-}
-
-.caixa-home {
+.caixa {
     position: relative;
-    height: 50px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav {
     position: absolute;
-    top: 0;
+    top: 110px;
     right: 0;
 }
 
 nav li {
-    display: inline-block;s
+    display: inline;
+    margin: 0 0 0 20px;
 }
 
 nav a {
+    text-transform: uppercase;
+    color: gold;
+    font-weight: bold;
+    font-size: 22px;
     text-decoration: none;
+    padding: 5px;
+    background-image: linear-gradient(to right, black , gray);
+    border-radius: 25%;
+}
+
+nav a:hover {
+    background: black;
     color: white;
-    font-size: 20px;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 45px;
 }
 
-.titulo-centralizado {
-    text-align: center;
-}
-
-#banner {
-    width: 100%;
-}
-
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: red;
-}
-
-.beneficios {
-    background: white;
-    padding: 20px;
-}
-
-ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
-.itens {
-    font-style: italic;
+.produtos li:hover {
+    border-color: gold;
 }
 
-.imagem-beneficios {
-    width: 50%;
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 25px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
 }
