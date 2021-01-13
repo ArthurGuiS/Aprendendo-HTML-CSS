@@ -2,6 +2,38 @@ body {
 
 }
 
+header {
+    background: black;
+}
+
+.caixa-home h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.caixa-home {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;s
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
 .titulo-principal {
     padding-left: 20px;
 }
