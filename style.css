@@ -102,16 +102,24 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form p {
     display: block;
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 6px;
 }
 
-form input {
+.input-padrao {
     display: block;
     font-size: 18px;
     margin-bottom: 25px;
     width: 45%;
     padding: 10px 25px;
+}
+
+.teste {
+    margin-top: 20px;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
