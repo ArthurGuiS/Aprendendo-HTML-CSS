@@ -120,6 +120,44 @@ form label, form legend {
     margin-top: 20px;
 }
 
+.selecao {
+    padding: 6px;
+    font-size: 15px;
+}
+
 .checkbox {
     margin: 20px 0;
+}
+
+.enviar {
+    width: 38%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(255, 166, 0, 0.829);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    transition: 0.79s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
